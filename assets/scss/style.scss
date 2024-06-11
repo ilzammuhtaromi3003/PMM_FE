@@ -1,0 +1,46 @@
+//variables
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Niramit:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+
+$primary: #17284A;
+$blue-light: #345D89;
+$dark-red: #AC0505;
+$light-grey: #ECECEC;
+$light-brown: #58595B;
+$more-light-brown: #6F6D6B;
+$footer : #323232;
+
+$font-primary : 'Libre Baskerville', serif;
+$font-secondary : 'Niramit', sans-serif;
+$font-tertiary : 'League Spartan', sans-serif;
+
+//customize here
+$theme-colors: (
+    "primary": $primary,
+    "dark-red": $dark-red,
+    "light-grey": $light-grey,
+    "light-brown": $light-brown,
+    "more-light-brown": $more-light-brown,
+    "footer": $footer,
+    "blue-light": $blue-light
+);
+$theme-fonts: (
+    "primary": $font-primary,
+    "secondary": $font-secondary,
+    "tertiary": $font-tertiary
+);
+// Font classes
+.font-primary {
+    font-family: $font-primary;
+}
+.font-secondary {
+    font-family: $font-secondary
+}
+
+.font-tertiary {
+    font-family: $font-tertiary
+}
+
+//bootstrap scss
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
